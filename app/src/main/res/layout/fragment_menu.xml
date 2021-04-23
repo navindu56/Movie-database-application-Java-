@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:fillViewport="true"
+    android:background="#83d0c9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C3232"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/logonew" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="328dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#F8E9A1"
+                android:text="Register Movie"
+                android:textSize="12pt"
+
+                />
+
+            <Button
+                android:id="@+id/btnDisplay"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#F8E9A1"
+                android:text="Display Movie"
+                android:textColor="#FFFFFF"
+                android:textSize="12pt"
+
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnFav"
+            android:layout_width="328dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#F8E9A1"
+            android:text="Favourites"
+            android:textColor="#FFFFFF"
+            android:textSize="12pt"
+
+            />
+
+        <Button
+            android:id="@+id/btnEditMovies"
+            android:layout_width="328dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#F8E9A1"
+            android:text="Edit Movies"
+            android:textColor="#FFFFFF"
+            android:textSize="12pt" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="328dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffeead"
+            android:text="Search"
+            android:textColor="#FFFFFF"
+            android:textSize="12pt" />
+
+        <Button
+            android:id="@+id/btnRating"
+            android:layout_width="328dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#F8E9A1"
+            android:text="Ratings"
+            android:textColor="#FFFFFF"
+            android:textSize="12pt" />
+
+
+    </LinearLayout>
+</ScrollView>

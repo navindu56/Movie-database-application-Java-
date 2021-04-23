@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CineFlix</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_movies">register</string>
+    <string name="name">name</string>
+    <string name="enter_movie_name">moviename</string>
+    <string name="year">year</string>
+    <string name="enter_movie_released_year">movieyear</string>
+    <string name="director">director</string>
+    <string name="enter_movie_director">moviedirector</string>
+    <string name="actresses">cast</string>
+    <string name="enter_actress_names">cast</string>
+    <string name="ratings">rating</string>
+    <string name="enter_movie_rating">movierating</string>
+    <string name="description">discription</string>
+    <string name="enter_movie_description">moviediscription</string>
+    <string name="register">register</string>
+    <string name="movies">movies</string>
+    <string name="add_to_favourites">fav</string>
+    <string name="register_movie">Register</string>
+</resources>
